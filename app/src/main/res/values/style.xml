@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="welcome_to_">
+
+    <item name="android:textSize">
+        48sp
+    </item>
+
+    <item name="android:textColor">
+        #FFFFFF
+    </item>
+</style>
+    <style name="ger_your_gr">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #B3FCFCFC
+        </item>
+
+    </style>
+    <style name="get_your_gr">
+
+        <item name="android:textSize">
+            26sp
+        </item>
+
+        <item name="android:textColor">
+            #030303
+        </item>
+
+    </style>
+    <style name="or_connect_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #828282
+        </item>
+
+    </style>
+    <style name="enter_your_">
+
+        <item name="android:textSize">
+            26sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="mobile_numb">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #7C7C7C
+        </item>
+
+    </style>
+    <style name="resend_code">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #53B175
+        </item>
+
+    </style>
+    <style name="loging">
+
+        <item name="android:textSize">
+            26sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="email_password">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #7C7C7C
+        </item>
+
+    </style>
+    <style name="forgot_pass">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.05
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="don_t_have_">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.05
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="by_continui">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.05
+        </item>
+
+        <item name="android:textColor">
+            #7C7C7C
+        </item>
+
+    </style>
+    <style name="mohamed_elesely">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="account">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #7C7C7C
+        </item>
+
+    </style>
+    <style name="accountstyles">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="h1">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="h2">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #7C7C7C
+        </item>
+
+    </style>
+    <style name="your_order_">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="back_to_hom">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="oops_order_">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+
+    <style name="checkout">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="checkout_texts">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #7C7C7C
+        </item>
+
+    </style>
+    <style name="checkout_texts_right">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+    <style name="my_cart">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #181725
+        </item>
+
+    </style>
+
+
+</resources>

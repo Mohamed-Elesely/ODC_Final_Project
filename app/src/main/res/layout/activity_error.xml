@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.Error"
+    android:layout_width="345dp"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/failed2"
+                    android:translationY="-150dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/x_sign" />
+
+                <Button
+                    android:id="@+id/please_try_again_error"
+                    android:layout_width="300dp"
+                    android:layout_height="63dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="27dp"
+                    android:background="@drawable/corners"
+                    android:gravity="center"
+                    android:text="Please Try Again"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:translationY="400dp" />
+
+                <TextView
+                    android:id="@+id/oops_order_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/girloybold"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/oops_order_"
+                    android:textAppearance="@style/oops_order_"
+                    android:translationY="10dp" />
+
+                <TextView
+                    android:id="@+id/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/girm"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Something went tembly wrong"
+                    android:textAppearance="@style/h2"
+                    android:translationY="70dp" />
+
+                <TextView
+                    android:id="@+id/back_to_hom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/girloybold"
+                    android:gravity="center_horizontal|bottom"
+                    android:lineSpacingExtra="-4sp"
+                    android:text="@string/back_to_home"
+                    android:textAppearance="@style/back_to_hom"
+                    android:translationY="-40dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
+
+

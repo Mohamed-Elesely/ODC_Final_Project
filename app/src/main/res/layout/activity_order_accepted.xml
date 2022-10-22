@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.OrderAccepted">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="350dp"
+           android:src="@drawable/g"
+           android:scaleType="fitXY"
+           />
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:scaleType="fitXY"
+           android:src="@drawable/backbottom" />
+   </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/order_acept"
+        android:layout_centerInParent="true"
+        android:translationY="-80dp"
+        android:translationX="-20dp"
+        />
+
+    <TextView
+        android:id="@+id/your_order_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:translationY="100dp"
+        android:text="@string/your_order_"
+        android:textAppearance="@style/your_order_"
+        android:gravity="center_horizontal|top"
+        android:fontFamily="@font/girloybold"
+        />
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/benn_placed"
+        android:textAppearance="@style/h2"
+        android:fontFamily="@font/girm"
+        android:translationY="170dp"
+        />
+
+    <Button
+        android:id="@+id/Get_Started"
+        android:layout_width="347dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/corners"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="@string/track_order"
+        />
+
+    <TextView
+        android:id="@+id/back_to_hom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back_to_home"
+        android:textAppearance="@style/back_to_hom"
+        android:lineSpacingExtra="-4sp"
+        android:gravity="center_horizontal|bottom"
+        android:translationY="-30dp"
+        android:fontFamily="@font/girloybold"
+
+        />
+
+</RelativeLayout>

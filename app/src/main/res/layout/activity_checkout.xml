@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.Checkout">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card_Checkout"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        app:cardCornerRadius="35dp"
+        android:translationY="30dp"
+        android:layout_alignParentBottom="true"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/checkout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/checkout"
+                        android:textAppearance="@style/checkout"
+                        android:fontFamily="@font/girse"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/exit_checkout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/x_sign"
+                        android:translationX="-30dp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/delivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="@string/delivery"
+                        android:textAppearance="@style/checkout_texts" />
+
+                    <TextView
+                        android:id="@+id/select_meth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="8dp"
+                        android:translationX="-50dp"
+                        android:text="@string/select_method"
+                        android:textAppearance="@style/checkout_texts_right"
+                        android:fontFamily="@font/girse"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrow_forward"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:translationX="-20dp"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="Payment"
+                    android:textAppearance="@style/checkout_texts" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:translationX="-50dp"
+                    android:src="@drawable/payment"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrow_forward"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:translationX="-20dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="Promo Code"
+                    android:textAppearance="@style/checkout_texts" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:translationX="-50dp"
+                    android:text="Pick discount"
+                    android:textAppearance="@style/checkout_texts_right"
+                    android:fontFamily="@font/girse"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrow_forward"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:translationX="-20dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/total_cost"
+                    android:textAppearance="@style/checkout_texts" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:translationX="-50dp"
+                    android:text="$13.97"
+                    android:textAppearance="@style/checkout_texts_right"
+                    android:fontFamily="@font/girse"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrow_forward"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:translationX="-20dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_placing_an_order_you_agree_to_our_nterms_and_conditions"
+                android:textAppearance="@style/h2"
+                android:fontFamily="@font/girm"
+                android:layout_margin="22dp"
+                android:lineSpacingExtra="4sp"
+                android:gravity="center_vertical"
+                />
+            <Button
+                android:id="@+id/Place_Order"
+                android:layout_width="347dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="65dp"
+                android:background="@drawable/corners"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="Place order"
+                />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Verification">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="-4dp"
+        android:src="@drawable/g" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        android:layout_margin="25dp"
+        android:translationY="25dp"/>
+
+    <TextView
+        android:id="@+id/enter_your_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="116.02dp"
+        android:fontFamily="@font/gir"
+        android:gravity="top"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/enter_your_digit"
+        android:textAppearance="@style/enter_your_"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/mobile_numb"
+        android:layout_width="112dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24.88dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="172.6dp"
+        android:text="@string/code"
+        android:textAppearance="@style/mobile_numb"
+        android:lineSpacingExtra="9sp"
+        android:translationY="-4.7sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="205dp"
+        android:drawablePadding="12dp"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:maxLength="4"
+        android:hint="- - - -"
+        />
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="300dp"
+       >
+
+       <Button
+           android:id="@+id/btnVerif"
+           android:layout_width="69dp"
+           android:layout_height="69dp"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentBottom="true"
+           android:layout_marginEnd="11dp"
+           android:layout_marginBottom="22dp"
+           android:background="@drawable/circle_button"
+           android:drawableStart="@drawable/arrow_button"
+           android:padding="30dp" />
+
+       <TextView
+           android:id="@+id/resend_code"
+           android:layout_width="112dp"
+           android:layout_height="29dp"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentBottom="true"
+           android:layout_marginStart="13dp"
+           android:layout_marginBottom="17dp"
+           android:gravity="top"
+           android:lineSpacingExtra="8sp"
+           android:text="@string/resend_code"
+           android:textAppearance="@style/resend_code"
+           android:translationY="-3.95sp" />
+   </RelativeLayout>
+
+
+</RelativeLayout>

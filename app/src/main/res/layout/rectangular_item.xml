@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="105dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="18dp"
+    android:backgroundTint="#3AA340">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/rectangular_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/pulses"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/rectangular_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Pulses"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/girse"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
